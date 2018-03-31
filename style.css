@@ -1,0 +1,34 @@
+#carousel {
+	border: 5px solid #ccc;
+	height: 300px;
+    left: 50%;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+	width: 400px;
+}
+
+img {
+	height: 300px;
+	width: 400px;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 2000px;
+}
+
+li {
+	display: inline;
+	float: left;
+	height: 300px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 400px;
+}
